@@ -8,6 +8,19 @@ The Recipe Recommendation System is designed to provide personalized and dynamic
 
 ---
 
+## **Dataset**
+
+The **Food.com Recipes and User Interactions** dataset contains recipes along with user interaction data, such as ratings and reviews. This dataset provides a comprehensive foundation for building a recommendation system by combining recipe details with user feedback.
+
+- **Dataset Highlights**:
+  - Includes recipe names, ingredients, cooking steps, and user reviews.
+  - Over **200K recipes** with associated interactions.
+
+- **Download**:
+  - The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?resource=download&select=RAW_recipes.csv).
+
+---
+
 ## **Approach**
 
 ### **1. Dataset Preprocessing**
@@ -103,12 +116,16 @@ To set up and run the project, follow these steps:
    pip install -r requirements.txt
    ```
 
-4. Run the application using the following command:
+4. Download the dataset (`RAW_recipes.csv`) into the current directory. You can find the dataset [here](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?resource=download&select=RAW_recipes.csv).
+
+5. Open and run the `Data Preparing` notebook to generate the `recipe_cleaned.csv` file in the current directory.
+
+6. Start the Flask application by running the following command:
 
    ```bash
-   python app.py
+   flask run
    ```
 
-5. Open your browser and navigate to `http://127.0.0.1:5000` to access the application.
+7. Open your browser and navigate to `http://127.0.0.1:5000` to access the application.
 
 ---

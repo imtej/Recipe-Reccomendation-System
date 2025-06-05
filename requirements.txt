@@ -1,0 +1,6 @@
+# Dependencies for the project
+Flask
+pandas
+numpy
+scikit-learn
+matplotlib
